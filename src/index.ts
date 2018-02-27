@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2018-present, Yann Massard <yamass@gmail.com>
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 export type ElementCorner = {
 	x?: "left" | "center" | "right",
 	y?: "top" | "center" | "bottom"

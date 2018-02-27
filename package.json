@@ -2,7 +2,7 @@
   "name": "place-to",
   "version": "0.1.0",
   "description": "Position an element next to another one.",
-  "main": "index.js",
+  "main": "dist/place-to.js",
   "author": "Yann Massard <yamass@gmail.com>",
   "license": "MIT",
   "scripts": {
