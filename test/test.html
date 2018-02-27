@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="../dist/place-to.js"></script>
+
+    <style>
+        .example {
+            display: inline-block;
+            border: 1px solid #cccccc77;
+            padding: 40px;
+            position: relative;
+            overflow: visible;
+        }
+        .example:before {
+            content: attr(data-description);
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 11px;
+            z-index: 1;
+            font-family: Sans-Serif;
+        }
+        .source-element {
+            background-color: #ff000077;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+        }
+        .target-element {
+            background-color: #00007777;
+            width: 60px;
+            height: 60px;
+        }
+
+        .example.css-grid .target-element-container {
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+<script src="test.js"></script>
+
+</body>
+</html>

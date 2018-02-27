@@ -1,0 +1,17 @@
+{
+  "name": "place-to",
+  "version": "0.1.0",
+  "description": "Position an element next to another one.",
+  "main": "index.js",
+  "author": "Yann Massard <yamass@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
