@@ -84,10 +84,10 @@ export class PlaceInvocation {
 		let elementCornerPosition = getCornerCoordinates(this.element, this.elementCorner);
 		let targetCornerPosition = getCornerCoordinates(otherElement, otherElementCorner);
 
-		if (elementCornerPosition.x && targetCornerPosition.x) {
+		if (elementCornerPosition.x != null && targetCornerPosition.x != null) {
 			this.element.style.left = (targetCornerPosition.x - elementCornerPosition.x) + 'px';
 		}
-		if (elementCornerPosition.y && targetCornerPosition.y) {
+		if (elementCornerPosition.y != null && targetCornerPosition.y != null) {
 			this.element.style.top = (targetCornerPosition.y - elementCornerPosition.y) + 'px';
 		}
 	}
