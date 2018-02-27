@@ -1,8 +1,9 @@
 {
   "name": "place-to",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Position an element next to another one.",
-  "main": "dist/place-to.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "author": "Yann Massard <yamass@gmail.com>",
   "license": "MIT",
   "scripts": {

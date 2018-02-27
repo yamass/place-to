@@ -4,8 +4,8 @@ module.exports = {
 	entry: './src/index.ts',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'place-to.js',
-		library: 'placeTo',
+		filename: 'index.js',
+		library: 'place-to',
 		libraryTarget: 'umd'
 	},
 	module: {
